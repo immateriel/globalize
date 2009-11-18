@@ -22,5 +22,6 @@ require "globalize/models/country"
 require "globalize/models/currency"
 
 # Load overriden Rails modules
+require "globalize/rails/active_record"
 require "globalize/rails/date_helper"
 
