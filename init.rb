@@ -1,7 +1,7 @@
 require 'pathname'
 require 'singleton'
 
-root_path = directory   # this is set in the initializer that calls init.rb
+root_path = "#{::Rails.root}/vendor/plugins/globalize"   # this is set in the initializer that calls init.rb
 ml_lib_path = "#{root_path}/lib/globalize"
 
 # Load globalize libs
